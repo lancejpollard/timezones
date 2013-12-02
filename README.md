@@ -19,7 +19,10 @@ component install viatropos/timezone
 ```js
 var timezone = require('timezone');
 
-timezone('pst');
+var a = new Date('2013-12-02 PST');
+var b = timezone('cst', a);
+assert(a < b);
+assert(b.getHours() == a.getHours() + 2);
 ```
 
 ## Notes
