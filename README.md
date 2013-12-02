@@ -11,13 +11,13 @@ npm install timezones
 browser:
 
 ```bash
-component install viatropos/timezone
+component install viatropos/timezones
 ```
 
 ## Example
 
 ```js
-var timezone = require('timezone');
+var timezone = require('timezones');
 
 var a = new Date('2013-12-02 PST');
 var b = timezone('cst', a);
