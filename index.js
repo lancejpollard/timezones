@@ -45,6 +45,7 @@ exports.collection = {
  * @see http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
  * @see http://en.wikipedia.org/wiki/Time_zone
  * @see http://www.timeanddate.com/library/abbreviations/timezones/na/pst.html
+ * @see http://stackoverflow.com/questions/2587345/javascript-date-parse
  *
  * @param {String|Number} name Name or offset of timezone.
  * @param {Date} [time] optional time, otherwise it defaults to now.
