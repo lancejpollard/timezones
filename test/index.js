@@ -1,7 +1,7 @@
 
 var timezone = 'undefined' == typeof window
   ? require('..')
-  : require('viatropos-timezone'); // how to do this better?
+  : require('viatropos-timezones'); // how to do this better?
 
 var assert = require('assert');
 

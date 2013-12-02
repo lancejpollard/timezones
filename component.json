@@ -1,6 +1,6 @@
 {
-  "name": "timezone",
-  "repo": "viatropos/timezone",
+  "name": "timezones",
+  "repo": "viatropos/timezones",
   "description": "Timezone component",
   "version": "0.0.1",
   "keywords": [],

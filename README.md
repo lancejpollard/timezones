@@ -5,7 +5,7 @@
 node.js:
 
 ```bash
-npm install timezone
+npm install timezones
 ```
 
 browser:
